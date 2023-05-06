@@ -1,2 +1,3 @@
-# SocialMediaApp
-A Social Media App project been developed using Node.js, Express.js &amp; Mongoose and tested with Postman, the postman file included in the repository for testing.
+# Daniels
+A responsive Front-End Web Application that has been developed using HTML, CSS, Javascript & Bootstrap, and works on all types of different screens.
+
