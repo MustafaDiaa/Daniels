@@ -1,0 +1,413 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../webfonts/font/Montserrat-VariableFont_wght.ttf);
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url(../webfonts/font/static/Montserrat-ExtraBold.ttf);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+h3 {
+  font-weight: 900;
+  font-size: 40px;
+  font-family: Montserrat-Bold;
+}
+
+#home {
+  background: url(../img/bg.jpg) no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh;
+  color: #fff;
+  margin-bottom: 50px;
+}
+
+#home h3 {
+  font-size: 50px;
+}
+
+.layer {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.navbar-brand {
+  font-family: Montserrat-Bold;
+}
+
+nav .navbar-brand,
+.nav-item a {
+  color: #fff !important;
+}
+
+.nav-link {
+  position: relative;
+}
+
+.nav-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #fff;
+  transition: width 0.5s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+.nav-item a {
+  margin: 0px 10px;
+  font-size: 14px;
+}
+
+.headAnimation::after {
+  content: " ";
+  animation: typing 2s infinite;
+}
+
+.head-content i {
+  height: 35px;
+  width: 35px;
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-content h2 {
+  font-size: 50px;
+  font-weight: 800;
+}
+
+.head-content p {
+  font-size: 3rem;
+}
+
+header .icon:hover {
+  cursor: pointer;
+}
+
+.btn-dark,
+.btn-light {
+  font-size: 14px;
+  padding: 10px 0px;
+}
+
+.btn-dark {
+  background-color: black;
+}
+
+.btn-dark:hover {
+  background-color: #fff;
+  color: black;
+}
+
+.btn-light {
+  background-color: #fff;
+  border-color: black;
+}
+
+.btn-light:hover {
+  background-color: black;
+  color: #fff;
+  border-color: black;
+}
+
+/* ABOUT */
+
+#about h3 {
+  font-size: 30px;
+}
+
+.UIUX {
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+#about p {
+  font-size: 15px;
+  color: #748182;
+  padding-bottom: 10px;
+}
+
+#jerry {
+  font-family: Montserrat-Bold;
+}
+
+/* SERVICES */
+
+#services,
+#clients,
+#blog {
+  background-color: #f7f7f7;
+}
+
+#services .item {
+  border-radius: 5px;
+}
+
+#services .container p {
+  font-size: 14px;
+  color: #333;
+}
+
+.item i,
+.worksItems i {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.item h4 {
+  font-family: Montserrat-Bold;
+  padding: 5px 0;
+  font-weight: 800;
+  font-size: 18px;
+}
+
+.item:hover i {
+  background-color: black;
+  color: #fff;
+}
+
+/* WORKS */
+
+.navigation a {
+  font-family: Montserrat-Bold;
+  text-decoration: none;
+  color: black;
+  margin: 0 15px;
+  font-weight: 900;
+}
+
+.itemLayer {
+  position: absolute;
+  top: 20px;
+  bottom: 5px;
+  right: 5px;
+  left: 5px;
+  opacity: 0;
+  background-color: rgb(255, 255, 255);
+  transition: all 0.5s;
+}
+
+.worksItems p {
+  font-family: Montserrat-Bold;
+  font-weight: 700;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.item:hover .itemLayer {
+  top: 5px;
+  opacity: 1;
+}
+
+.itemLayer h2 {
+  font-size: 16px;
+}
+
+.worksItems i {
+  height: 30px;
+  width: 30px;
+  background-color: black;
+  margin: 0 3px;
+}
+
+.fa-chain-broken,
+.fa-magnifying-glass-plus {
+  color: #fff;
+  border: #000 solid 1px;
+}
+
+.worksIcons .fa-chain-broken:hover,
+.worksIcons .fa-magnifying-glass-plus:hover {
+  background-color: #fff;
+  color: black;
+  border: #000 solid 1px;
+  cursor: pointer;
+}
+
+.carousel-indicators [data-bs-target] {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  background-color: gray;
+}
+
+/* CLIENTS */
+
+#clients .carousel-item p {
+  font-size: 15px;
+  word-spacing: 2px;
+  margin: 0;
+}
+
+#clients .carousel-item h6 {
+  font-size: 16px;
+  font-weight: 600;
+  margin: 30px 0 5px;
+}
+
+#clients .carousel-item span {
+  font-size: 12px;
+  font-weight: 600;
+  color: #888;
+  margin-bottom: 30px;
+}
+
+/* ACHEIVMENTS */
+#achievments h3 {
+  font-size: 30px;
+}
+
+#achievments p {
+  font-family: Montserrat;
+  font-weight: 900;
+  color: #748182;
+}
+
+/* BLOG */
+
+.imgContainer {
+  overflow: hidden;
+}
+
+.imgContainer img {
+  transition: scale 0.5s;
+}
+
+.blogItem a {
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+}
+
+#blog .carousel-item .blogBold {
+  font-size: 20px;
+  color: #000;
+  font-weight: 900;
+}
+
+#blogReadMore {
+  text-decoration: underline;
+}
+
+.blogItem img:hover {
+  scale: 1.15;
+}
+
+/* CONTACT */
+.contactIcons:hover {
+  background-color: black;
+  color: #fff;
+  cursor: pointer;
+}
+
+#contacts h6 {
+  font-weight: 900;
+  font-size: 16px;
+}
+
+#contacts p {
+  font-size: 15px;
+  color: #748182;
+}
+
+#contacts input,
+#contacts textarea {
+  background-color: #f4f4f4;
+  font-size: 14px;
+}
+
+textarea {
+  height: 150px;
+}
+
+.item .contact:hover i {
+  background-color: black;
+  color: #fff;
+}
+
+/* FOOTER */
+footer {
+  background-color: #1c1c1c;
+  color: #fff;
+  height: 80px;
+}
+
+footer p {
+  font-size: 13px;
+  color: #748182;
+  transform: translateY(50%);
+}
+
+/* MEDIA QUERY */
+
+@keyframes typing {
+  0% {
+    content: "|";
+  }
+  6% {
+    content: "M|";
+  }
+  12% {
+    content: "Mu|";
+  }
+  18% {
+    content: "Mus|";
+  }
+  24% {
+    content: "Must|";
+  }
+  30% {
+    content: "Musta|";
+  }
+  36% {
+    content: "Mustaf|";
+  }
+  42% {
+    content: "Mustafa|";
+  }
+  48% {
+    content: "Mustafa D|";
+  }
+  54% {
+    content: "Mustafa|";
+  }
+  60% {
+    content: "Mustaf|";
+  }
+  68% {
+    content: "Musta|";
+  }
+  78% {
+    content: "Must|";
+  }
+  84% {
+    content: "Mus|";
+  }
+  90% {
+    content: "Mu|";
+  }
+  95% {
+    content: "M|";
+  }
+  100% {
+    content: "|";
+  }
+}
